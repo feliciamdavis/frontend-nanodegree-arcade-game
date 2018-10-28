@@ -1,0 +1,27 @@
+{
+    "extends": "eslint:recommended",
+    "env": {
+        "browser": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 2018
+    },
+    "rules": {
+        "no-var": "error",
+        "one-var-declaration-per-line": "warn",
+        "operator-linebreak": ["error", "before"],
+        "block-scoped-var": "warn",
+        "curly": ["error", "multi-line"],
+        "dot-location": ["error", "property"],
+        "no-floating-decimal": "error",
+        "brace-style": ["error", "stroustrup"],
+        "quotes": [2, "single", "avoid-escape"],
+        "indent": ["error", "tab"]
+    },
+    "globals": {
+        "Resources": true,
+        "ctx": true,
+        "player": true,
+        "allEnemies": true
+    }
+}

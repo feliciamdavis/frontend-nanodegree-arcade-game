@@ -6,7 +6,7 @@
  */
 (function () {
 	const resourceCache = {};
-	const loading = [];
+	// const loading = [];
 	const readyCallbacks = [];
 
 	/* This is the publicly accessible image loading function. It accepts

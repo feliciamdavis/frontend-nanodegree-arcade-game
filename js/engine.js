@@ -115,7 +115,7 @@ const Engine = (function (global) { // eslint-disable-line no-unused-vars
 			'images/grass-block.png'    // Row 2 of 2 of grass
 		];
 		const numRows = 6;
-		let numCols = 5;
+		const numCols = 5;
 
 		// Before drawing, clear existing canvas
 		ctx.clearRect(0, 0, canvas.width, canvas.height)
@@ -172,7 +172,7 @@ const Engine = (function (global) { // eslint-disable-line no-unused-vars
 		'images/water-block.png',
 		'images/grass-block.png',
 		'images/enemy-bug.png',
-		'images/char-boy.png'
+		'images/char-pink-girl.png'
 	]);
 	Resources.onReady(init);
 

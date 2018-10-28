@@ -1,8 +1,6 @@
 frontend-nanodegree-arcade-game
 ===============================
 
-
-
 ## What is it
 This game is a clone of Frogger. I created this game for my Front End Nanodegree Program. We were given some base code and then asked to finish the game using Object Oriented programming. Most of the coding I did for this game is in the `app.js` file.
 
@@ -15,4 +13,6 @@ You can get this game by cloning or downloading the files from my GitHub account
 
 ## How to Play
 Use the directional arrow keys on your keyboard to move your character around the game board. The goal of the game is to move from the grass area at the bottom to the water at the top without running into any of the giant moving bugs on the board.
+
+<img src="./screenshot.png" width="400">
 
